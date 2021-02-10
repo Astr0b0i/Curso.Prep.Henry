@@ -92,7 +92,7 @@ describe('agregarNumeros(numbers)', function() {
   });
 });
 
-describe('promedioResultadosTest(testScores)', function() {
+describe('promedioResultadosTest(resultadosTest)', function() {
   it('should return the average test score', function() {
     expect(promedioResultadosTest([10, 10, 16, 12])).toBe(12);
     expect(promedioResultadosTest([97, 100, 80, 55, 72, 94])).toBe(83);
